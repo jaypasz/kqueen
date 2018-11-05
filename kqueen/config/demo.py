@@ -11,7 +11,7 @@ class Config(BaseConfig):
     # SECRET_KEY = 'secret'
 
     # Set up this to enable Jenkins provisioner:
-    JENKINS_API_URL = ''
+    JENKINS_API_URL = 'http://159.203.170.195:8080/'
     JENKINS_PROVISION_JOB_NAME = ''
     JENKINS_PROVISION_JOB_CTX = {}
     JENKINS_DEPROVISION_JOB_NAME = 'deploy-stack-cleanup'
